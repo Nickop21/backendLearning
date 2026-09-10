@@ -4,13 +4,15 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server-express.js"
+    "start": "node mongo.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "express": "^5.2.1",
+    "mongoose": "^9.9.5",
+    "nodemon": "^3.1.14",
     "url": "^0.11.4"
   }
 }

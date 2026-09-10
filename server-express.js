@@ -2,7 +2,6 @@ const express = require("express");
 const fs = require("fs");
 const app = express();
 const users = require("./MOCK_DATA.json");
-const { join } = require("path");
 
 app.use(express.urlencoded({ extended: false }));
 app.get("/",(req,res)=>{
