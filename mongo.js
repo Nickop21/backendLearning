@@ -52,7 +52,7 @@ ${allDbUsers.map((user) => `<li>${user.first_name} - ${user.email}</li>`)}
   res.send(html);
 });
 
-app.get("api/users" , async(req,res)=>{
+app.get("/api/users" , async(req,res)=>{
     const allDbUsers=await User.find({})
     return res.json(allDbUsers)
 
