@@ -1,10 +1,10 @@
 {
   "name": "backendlearning",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "url-shortner/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node mvc.js"
+    "start": "nodemon url-shortner/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.9.5",
+    "nanoid": "^6.0.1",
     "nodemon": "^3.1.14",
     "url": "^0.11.4"
   }
